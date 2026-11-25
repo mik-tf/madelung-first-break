@@ -2,7 +2,9 @@
 
 Author: Michaël Perreault
 
-Version 1.0.
+Version 1.0.1.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24542256.svg)](https://doi.org/10.5281/zenodo.24542256)
 
 In the Demkov-Ostrovsky (Tietz) field the one-electron levels with equal N=n+l reach zero energy together, and our earlier papers [P1, P2] showed that a convex departure from it splits each group with lower n first. Here we study the Thomas-Fermi (TF) field, whose chemical potential is zero, so that a level reaching zero energy is a subshell that starts to fill. Theorem A: the zero-energy thresholds of all 30 levels with N<=10 are in exactly the Madelung order. Theorem B: the first break is a single transposition, 7h (N=12) is bound before 11s (N=11) near Z=310, and it is the only inversion below 8g. Both are proved with interval arithmetic at 640 bits, validated Taylor integration, Sturm comparison and an explicit tail lemma for the 144/s^3 asymptote. They concern the pure TF zero-energy model, the leading-order large-Z mean field of [BFHS25], giving, to our knowledge, the first certified answer to the question of how large an atom must be before the Madelung rule fails inside that model. A double-precision table of 240 levels up to N=30 shows overlaps of consecutive groups for every N from 11 to 29, a semiclassical law with beta=1.032 predicts the first overlap at N=11, and along the path from the Tietz to the TF field the first overlap appears at N=11 to 16. A (Z-1)/Z Fermi-Amaldi rescaling keeps the orderings, moving every threshold by about 3/2 in Z, whereas fields with a -1/r tail reorder levels from N=3 to 7, so the result is not a statement about real atoms; the subshell capacities remain an input.
 
@@ -25,4 +27,4 @@ It runs the fast checks on the data and logs shipped in `code/` and prints PASS 
 
 ## Cite as
 
-Perreault, M. Where the n + l rule breaks in the Thomas-Fermi atom: certified zero-energy thresholds, Madelung order through n + l = 10, and the first overlap at n + l = 11, version 1.0. https://github.com/mik-tf/madelung-first-break (DOI to be added). See [CITATION.cff](CITATION.cff).
+Perreault, M. Where the n + l rule breaks in the Thomas-Fermi atom: certified zero-energy thresholds, Madelung order through n + l = 10, and the first overlap at n + l = 11, version 1.0.1. https://github.com/mik-tf/madelung-first-break (DOI: [10.5281/zenodo.24542256](https://doi.org/10.5281/zenodo.24542256) (all versions; v1.0 is [10.5281/zenodo.24542257](https://doi.org/10.5281/zenodo.24542257))). See [CITATION.cff](CITATION.cff).
