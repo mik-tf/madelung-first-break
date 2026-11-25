@@ -1,0 +1,24 @@
+nearest Tietz field: a = 0.5367947  A = 1.0127834   (79s)
+grid built (79s)
+N=11: eps* = 0.957563  (296s)
+N=12: eps* = 0.850635  (555s)
+N=13: eps* = 0.808994  (775s)
+N=14: eps* = 0.738067  (1044s)
+N=15: eps* = 0.708571  (1318s)
+N=16: eps* = 0.656386  (1561s)
+N, eps*_N, N*eps*_N, (if none: min margin and eps)
+  N=3: none on grid; min (Z_low(N+1) - Z_top(N)) = 3.53697 at eps=1.0000
+  N=4: none on grid; min (Z_low(N+1) - Z_top(N)) = 3.59403 at eps=1.0000
+  N=5: none on grid; min (Z_low(N+1) - Z_top(N)) = 3.96135 at eps=1.0000
+  N=6: none on grid; min (Z_low(N+1) - Z_top(N)) = 3.46909 at eps=1.0000
+  N=7: none on grid; min (Z_low(N+1) - Z_top(N)) = 3.41129 at eps=1.0000
+  N=8: none on grid; min (Z_low(N+1) - Z_top(N)) = 2.36895 at eps=1.0000
+  N=9: none on grid; min (Z_low(N+1) - Z_top(N)) = 1.88540 at eps=1.0000
+  N=10: none on grid; min (Z_low(N+1) - Z_top(N)) = 0.29257 at eps=1.0000
+  N=11: 0.957563  10.5332
+  N=12: 0.850635  10.2076
+  N=13: 0.808994  10.5169
+  N=14: 0.738067  10.3329
+  N=15: 0.708571  10.6286
+  N=16: 0.656386  10.5022
+T10 PASS

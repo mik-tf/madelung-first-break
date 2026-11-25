@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Where the n + l rule breaks in the Thomas-Fermi atom: certified zero-energy thresholds, Madelung order through n + l = 10, and the first overlap at n + l = 11"
+type: software
+authors:
+  - family-names: Perreault
+    given-names: Michaël
+version: "1.0"
+date-released: "2026-11-25"
+license: CC-BY-4.0
+repository-code: "https://github.com/mik-tf/madelung-first-break"
+keywords:
+  - Madelung rule
+  - Thomas-Fermi equation
+  - Demkov-Ostrovsky
+  - interval arithmetic
+  - Sturm comparison
+  - Bohr-Sommerfeld

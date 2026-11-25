@@ -1,0 +1,38 @@
+x4_A_h512.json h=1/512
+  eps=0.25: N*=48 s_inf=0.042593 N* s_inf=2.0445
+     N=46: Z_low(N+1)/Z_top(N)-1=+0.001034 lowest at l=23 (top l=23)
+     N=47: Z_low(N+1)/Z_top(N)-1=+0.000360 lowest at l=23 (top l=23)
+     N=48: Z_low(N+1)/Z_top(N)-1=-0.000714 lowest at l=24 (top l=24)
+     N=49: Z_low(N+1)/Z_top(N)-1=-0.001326 lowest at l=24 (top l=24)
+x4_A_h256.json h=1/256
+  eps=0.25: N*=48 s_inf=0.042593 N* s_inf=2.0445
+     N=46: Z_low(N+1)/Z_top(N)-1=+0.001036 lowest at l=23 (top l=23)
+     N=47: Z_low(N+1)/Z_top(N)-1=+0.000362 lowest at l=23 (top l=23)
+     N=48: Z_low(N+1)/Z_top(N)-1=-0.000712 lowest at l=24 (top l=24)
+     N=49: Z_low(N+1)/Z_top(N)-1=-0.001324 lowest at l=24 (top l=24)
+x4_B_h512.json h=1/512
+  eps=0.5: N*=22 s_inf=0.092903 N* s_inf=2.0439
+     N=20: Z_low(N+1)/Z_top(N)-1=+0.008222 lowest at l=10 (top l=10)
+     N=21: Z_low(N+1)/Z_top(N)-1=+0.005041 lowest at l=10 (top l=10)
+     N=22: Z_low(N+1)/Z_top(N)-1=-0.000361 lowest at l=11 (top l=11)
+     N=23: Z_low(N+1)/Z_top(N)-1=-0.002906 lowest at l=11 (top l=11)
+     N=24: Z_low(N+1)/Z_top(N)-1=-0.007495 lowest at l=12 (top l=12)
+  eps=1.0: N*=11 s_inf=0.252102 N* s_inf=2.7731
+     N=9: Z_low(N+1)/Z_top(N)-1=+0.036208 lowest at l=4 (top l=4)
+     N=10: Z_low(N+1)/Z_top(N)-1=+0.004577 lowest at l=5 (top l=5)
+     N=11: Z_low(N+1)/Z_top(N)-1=-0.008016 lowest at l=5 (top l=5)
+     N=12: Z_low(N+1)/Z_top(N)-1=-0.030254 lowest at l=6 (top l=6)
+     N=13: Z_low(N+1)/Z_top(N)-1=-0.038379 lowest at l=6 (top l=6)
+x4_B_h256.json h=1/256
+  eps=0.5: N*=22 s_inf=0.092903 N* s_inf=2.0439
+     N=20: Z_low(N+1)/Z_top(N)-1=+0.008222 lowest at l=10 (top l=10)
+     N=21: Z_low(N+1)/Z_top(N)-1=+0.005041 lowest at l=10 (top l=10)
+     N=22: Z_low(N+1)/Z_top(N)-1=-0.000361 lowest at l=11 (top l=11)
+     N=23: Z_low(N+1)/Z_top(N)-1=-0.002906 lowest at l=11 (top l=11)
+     N=24: Z_low(N+1)/Z_top(N)-1=-0.007495 lowest at l=12 (top l=12)
+  eps=1.0: N*=11 s_inf=0.252102 N* s_inf=2.7731
+     N=9: Z_low(N+1)/Z_top(N)-1=+0.036208 lowest at l=4 (top l=4)
+     N=10: Z_low(N+1)/Z_top(N)-1=+0.004577 lowest at l=5 (top l=5)
+     N=11: Z_low(N+1)/Z_top(N)-1=-0.008016 lowest at l=5 (top l=5)
+     N=12: Z_low(N+1)/Z_top(N)-1=-0.030254 lowest at l=6 (top l=6)
+     N=13: Z_low(N+1)/Z_top(N)-1=-0.038379 lowest at l=6 (top l=6)

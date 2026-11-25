@@ -1,0 +1,78 @@
+Running as unit: run-p1687055-i462781635.scope; invocation ID: 206541e1309b42209ff0691c52e5ba04
+sandwich lo hits_zero tend 380.9 hi turns_up tend 416.2 range s <= 1.451e+05 time 277s
+tail hypothesis True
+fine sandwich ratio 0.01 lo hits_zero tend 378.53 hi turns_up tend 409.90 range s <= 1.433e+05 tail True
+11 11 0 G_num 81.59499923 hi_ok True lo_ok True node_s<=59694 c_hi 10 c_lo 10 w_hi (1.5596114532640676e-05, 1.5596114532640676e-05) g 9.990955553540301e-08  ratio 0.01 1134s
+12 7 5 G_num 80.94094645 hi_ok True lo_ok True node_s<=15 c_hi 1 c_lo 1 w_hi (0.0012244788212294915, 0.0012244792038442543) g -0.0010203991577585627  ratio 0.03 143s
+(c) G(11,0)_lo 81.5868397316 > G(12,5)_hi 80.9490405452 : PASS
+1 1 0 G_num 1.059264881 hi_ok True lo_ok True node_s<=47182 c_hi 0 c_lo 0 w_hi (1.9347657509653182e-05, 1.9347657509653182e-05) g 1.296397405214663e-09  ratio 0.03 173s
+2 2 0 G_num 3.329850688 hi_ok True lo_ok True node_s<=53104 c_hi 1 c_lo 1 w_hi (1.735468612639691e-05, 1.735468612639691e-05) g 4.075343808069875e-09  ratio 0.03 161s
+3 2 1 G_num 6.241069264 hi_ok True lo_ok True node_s<=120 c_hi 0 c_lo 0 w_hi (0.0004081480440006016, 0.0004081480440006016) g -0.00020407908658285912  ratio 0.03 101s
+3 3 0 G_num 6.882462269 hi_ok True lo_ok True node_s<=56338 c_hi 2 c_lo 2 w_hi (1.6673256019801948e-05, 1.6673256019801948e-05) g 8.423500103683797e-09  ratio 0.03 151s
+4 3 1 G_num 10.63178596 hi_ok True lo_ok True node_s<=182 c_hi 1 c_lo 1 w_hi (0.00040812303467670344, 0.00040812303467670344) g -0.00020407729535900534  ratio 0.03 107s
+4 4 0 G_num 11.71967138 hi_ok True lo_ok True node_s<=59769 c_hi 3 c_lo 3 w_hi (1.632520375558773e-05, 1.632520375558773e-05) g 1.4344214824691222e-08  ratio 0.03 175s
+5 3 2 G_num 15.52947967 hi_ok True lo_ok True node_s<=35 c_hi 0 c_lo 0 w_hi (0.0006122387199845525, 0.0006122387199845525) g -0.0004081594641182209  ratio 0.03 117s
+5 4 1 G_num 16.27129202 hi_ok True lo_ok True node_s<=231 c_hi 2 c_lo 2 w_hi (0.00040808256377350795, 0.00040808256377350795) g -0.00020407499466734057  ratio 0.03 139s
+5 5 0 G_num 17.84247816 hi_ok True lo_ok True node_s<=59769 c_hi 4 c_lo 4 w_hi (1.6111599303763563e-05, 1.6111599303763563e-05) g 2.1838986052645947e-08  ratio 0.03 156s
+6 4 2 G_num 22.04166622 hi_ok True lo_ok True node_s<=50 c_hi 1 c_lo 1 w_hi (0.0006122361290928181, 0.0006122361290928181) g -0.00040815787010630556  ratio 0.03 99s
+6 5 1 G_num 23.17187599 hi_ok True lo_ok True node_s<=275 c_hi 3 c_lo 3 w_hi (0.0004080253836266078, 0.0004080253836266078) g -0.00020407217948308445  ratio 0.03 137s
+6 6 0 G_num 25.25138892 hi_ok True lo_ok True node_s<=59769 c_hi 5 c_lo 5 w_hi (1.596539336658268e-05, 1.596539336658268e-05) g 3.090878057510135e-08  ratio 0.03 186s
+7 4 3 G_num 28.92876269 hi_ok True lo_ok True node_s<=20 c_hi 0 c_lo 0 w_hi (0.0008163196047563691, 0.0008163196047563691) g -0.0006122398401297801  ratio 0.03 135s
+7 5 2 G_num 29.78935718 hi_ok True lo_ok True node_s<=67 c_hi 2 c_lo 2 w_hi (0.0006122330463936328, 0.0006122330463936328) g -0.0004081559736689355  ratio 0.03 135s
+7 6 1 G_num 31.34083119 hi_ok True lo_ok True node_s<=329 c_hi 4 c_lo 4 w_hi (0.0004079506953325553, 0.0004079506953325553) g -0.0002040688468165907  ratio 0.03 103s
+7 7 0 G_num 33.94670049 hi_ok True lo_ok True node_s<=59769 c_hi 6 c_lo 6 w_hi (1.5857488186606802e-05, 1.5857488186606802e-05) g 4.155438197544329e-08  ratio 0.03 127s
+8 5 3 G_num 37.56279867 hi_ok True lo_ok True node_s<=27 c_hi 1 c_lo 1 w_hi (0.0008163175376456938, 0.0008163175376456938) g -0.0006122383305705127  ratio 0.03 93s
+8 6 2 G_num 38.78449247 hi_ok True lo_ok True node_s<=80 c_hi 3 c_lo 3 w_hi (0.0006122294669157624, 0.0006122294669157624) g -0.00040815377188012825  ratio 0.03 93s
+8 7 1 G_num 40.78280186 hi_ok True lo_ok True node_s<=370 c_hi 5 c_lo 5 w_hi (0.00040785795438437087, 0.00040785795438437087) g -0.00020406499475621854  ratio 0.03 98s
+8 8 0 G_num 43.92860373 hi_ok True lo_ok True node_s<=59769 c_hi 7 c_lo 7 w_hi (1.5773110004973568e-05, 1.5773110004973568e-05) g 5.377651740108428e-08  ratio 0.03 112s
+9 5 4 G_num 46.43977895 hi_ok True lo_ok True node_s<=14 c_hi 0 c_lo 0 w_hi (0.0010204002130738427, 0.0010204002130738427) g -0.0008163202155163741  ratio 0.03 89s
+9 6 3 G_num 47.4252021 hi_ok True lo_ok True node_s<=35 c_hi 2 c_lo 2 w_hi (0.0008163151764296006, 0.0008163151764296006) g -0.000612236606241794  ratio 0.03 98s
+9 7 2 G_num 49.03542028 hi_ok True lo_ok True node_s<=90 c_hi 4 c_lo 4 w_hi (0.0006122253870397219, 0.0006122253870397219) g -0.0004081512626924849  ratio 0.03 102s
+9 8 1 G_num 51.50091278 hi_ok True lo_ok True node_s<=417 c_hi 6 c_lo 6 w_hi (0.0004077467723752307, 0.0004077467723752307) g -0.00020406062200751664  ratio 0.03 111s
+9 9 0 G_num 55.19722937 hi_ok True lo_ok True node_s<=59769 c_hi 8 c_lo 8 w_hi (1.570389880082442e-05, 1.570389880082442e-05) g 6.757591384410364e-08  ratio 0.03 118s
+10 6 4 G_num 57.195825 hi_ok True lo_ok True node_s<=19 c_hi 1 c_lo 1 w_hi (0.0010203983716904044, 0.0010203983716904044) g -0.0008163187528533047  ratio 0.03 91s
+10 7 3 G_num 58.52659474 hi_ok True lo_ok True node_s<=42 c_hi 3 c_lo 3 w_hi (0.0008163125185583326, 0.0008163125185583326) g -0.0006122346652849685  ratio 0.03 91s
+10 8 2 G_num 60.5481708 hi_ok True lo_ok True node_s<=107 c_hi 5 c_lo 5 w_hi (0.0006122208039863204, 0.0006122208039863204) g -0.00040814844462540816  ratio 0.03 92s
+fine sandwich ratio 0.01 lo hits_zero tend 378.53 hi turns_up tend 409.90 range s <= 1.433e+05 tail True
+10 9 1 G_num 63.49736084 hi_ok True lo_ok True node_s<=446 c_hi 7 c_lo 7 w_hi (0.00040761686319079377, 0.00040761686319079377) g -0.00020405572765186584  ratio 0.01 303s
+10 10 0 G_num 67.75267126 hi_ok True lo_ok True node_s<=59769 c_hi 9 c_lo 9 w_hi (1.56447312027693e-05, 1.56447312027693e-05) g 8.295332667191215e-08  ratio 0.03 112s
+11 6 5 G_num 68.06280707 hi_ok True lo_ok True node_s<=12 c_hi 0 c_lo 0 w_hi (0.001224480719889972, 0.0012244807365932634) g -0.0010204005905878944  ratio 0.03 89s
+11 7 4 G_num 69.17578631 hi_ok True lo_ok True node_s<=24 c_hi 2 c_lo 2 w_hi (0.0010203963207707865, 0.0010203963207707865) g -0.0008163171237531323  ratio 0.03 89s
+11 8 3 G_num 70.87506577 hi_ok True lo_ok True node_s<=50 c_hi 4 c_lo 4 w_hi (0.0008163095620875476, 0.0008163095620875476) g -0.0006122325062839573  ratio 0.03 91s
+11 9 2 G_num 73.32722294 hi_ok True lo_ok True node_s<=120 c_hi 6 c_lo 6 w_hi (0.0006122157155081379, 0.0006122157155081379) g -0.00040814531657743327  ratio 0.03 93s
+11 10 1 G_num 76.77374681 hi_ok True lo_ok True node_s<=498 c_hi 8 c_lo 8 w_hi (0.00040746801148534937, 0.00040746801148534937) g -0.00020405031101113937  ratio 0.03 96s
+12 8 4 G_num 82.3890381 hi_ok True lo_ok True node_s<=29 c_hi 3 c_lo 3 w_hi (0.0010203940587074707, 0.0010203940587074707) g -0.0008163153269400732  ratio 0.03 90s
+12 9 3 G_num 84.47689184 hi_ok True lo_ok True node_s<=56 c_hi 5 c_lo 5 w_hi (0.0008163063055059379, 0.0008163063055059379) g -0.0006122301281393744  ratio 0.03 96s
+12 10 2 G_num 87.37598409 hi_ok True lo_ok True node_s<=128 c_hi 7 c_lo 7 w_hi (0.0006122101196959672, 0.0006122101196959672) g -0.00040814187770878753  ratio 0.03 98s
+12 11 1 G_num 91.33127208 hi_ok True lo_ok True node_s<=528 c_hi 9 c_lo 9 w_hi (0.0004073000532713403, 0.0004073000532713403) g -0.00020404437156743582  ratio 0.03 97s
+fine sandwich ratio 0.01 lo hits_zero tend 378.53 hi turns_up tend 409.90 range s <= 1.433e+05 tail True
+12 12 0 G_num 96.72426673 hi_ok True lo_ok True node_s<=59694 c_hi 11 c_lo 11 w_hi (1.5549123246645992e-05, 1.5549123246645992e-05) g 1.1844545390810233e-07  ratio 0.01 347s
+fine sandwich ratio 0.01 lo hits_zero tend 378.53 hi turns_up tend 409.90 range s <= 1.433e+05 tail True
+13 7 6 G_num 93.79796349 hi_ok True lo_ok True node_s<=10 c_hi 0 c_lo 0 w_hi (0.001428561200878116, 0.001428561200878116) g -0.0012244809654787974  ratio 0.01 278s
+13 8 5 G_num 95.0399592 hi_ok True lo_ok True node_s<=19 c_hi 2 c_lo 2 w_hi (0.0012244725751257017, 0.001224481693241341) g -0.0010203975890920466  ratio 0.03 96s
+(b) N=1 max Ghi (l=0) 1.059370808 < N=2 min Glo (l=0) 3.329517703 : True
+(b) N=2 max Ghi (l=0) 3.330183673 < N=3 min Glo (l=1) 6.240445157 : True
+(b) N=3 max Ghi (l=0) 6.883150516 < N=4 min Glo (l=1) 10.63072278 : True
+(b) N=4 max Ghi (l=0) 11.72084335 < N=5 min Glo (l=2) 15.52792672 : True
+(b) N=5 max Ghi (l=0) 17.8442624 < N=6 min Glo (l=2) 22.03946206 : True
+(b) N=6 max Ghi (l=0) 25.25391406 < N=7 min Glo (l=3) 28.92586981 : True
+(b) N=7 max Ghi (l=0) 33.95009516 < N=8 min Glo (l=3) 37.55904239 : True
+(b) N=8 max Ghi (l=0) 43.93299659 < N=9 min Glo (l=4) 46.43513498 : True
+(b) N=9 max Ghi (l=0) 55.20274909 < N=10 min Glo (l=4) 57.19010542 : True
+(b) N=10 max Ghi (l=0) 67.75944653 < N=11 min Glo (l=5) 68.05600079 : True
+bracket 10p (11, 1) [76.76606943, 76.78142418]
+bracket 7h (12, 5) [80.93285236, 80.94904055]
+bracket 11s (11, 0) [81.58683973, 81.60315873]
+bracket 8g (12, 4) [82.3807992, 82.39727701]
+bracket 9f (12, 3) [84.46844415, 84.48533953]
+bracket 7i (13, 6) [93.7885837, 93.80734329]
+bracket 8h (13, 5) [95.03045521, 95.0494632]
+(d) assert 10p below 7h : True
+(d) assert 11s below 8g : True
+(d) assert 7h below 8g : True
+(d) assert 8g below 9f : True
+(d) assert 8g below 7i : True
+(d) assert 8g below 8h : True
+(d) margins: Glo(7i)/Ghi(8g) = 1.1382486, Glo(8h)/Ghi(8g) = 1.1533203
+all brackets valid: True
+RESULT (a) True (b) True (c) True (d) True VERDICT PASS N <= 12 delta 1e-4 total time 6920s

@@ -1,0 +1,17 @@
+Running as unit: run-p1266426-i466505045.scope; invocation ID: 14e9a59a3a9e4fdeb9c94dbc8bbd4b9f
+python-flint precision 400 bits, Taylor order 36, ratio [0.0100 +/- 1e-9], delta 1e-4, levels [(7, 5), (11, 0), (8, 4), (8, 5), (7, 6), (10, 1), (2, 1), (3, 2), (5, 3)]
+sandwich (Arb): B*-1e-35 hits_zero at t=377.5, B*+1e-35 turns_up at t=408.8  True (18s)
+TF ball enclosure to t=297 (result tmax); tail hypothesis y(70) < 144/70^6: True  (y(70) [1.2012420e-9 +/- 3.47e-17], y/psi [0.98142303 +/- 2.38e-9])  (26s)
+level n=7 l=5 k=1 G_num 8.0940946450 | upper end: 2 zeros reached at t<=3.9 sign +1 (mpmath hi_ok True) | lower end: 1 zeros (mpmath c_lo 1), sign(a_S) ok True, w>g True, sign -1 (mpmath lo_ok True) | AGREE True  17s
+level n=11 l=0 k=10 G_num 8.1594999231 | upper end: 11 zeros reached at t<=243.7 sign +1 (mpmath hi_ok True) | lower end: 10 zeros (mpmath c_lo 10), sign(a_S) ok True, w>g True, sign -1 (mpmath lo_ok True) | AGREE True  20s
+level n=8 l=4 k=3 G_num 8.2389038103 | upper end: 4 zeros reached at t<=5.3 sign +1 (mpmath hi_ok True) | lower end: 3 zeros (mpmath c_lo 3), sign(a_S) ok True, w>g True, sign -1 (mpmath lo_ok True) | AGREE True  14s
+level n=8 l=5 k=2 G_num 9.5039959203 | upper end: 3 zeros reached at t<=4.3 sign +1 (mpmath hi_ok True) | lower end: 2 zeros (mpmath c_lo 2), sign(a_S) ok True, w>g True, sign -1 (mpmath lo_ok True) | AGREE True  29s
+level n=7 l=6 k=0 G_num 9.3797963493 | upper end: 1 zeros reached at t<=3.2 sign +1 (mpmath hi_ok True) | lower end: 0 zeros (mpmath c_lo 0), sign(a_S) ok True, w>g True, sign -1 (mpmath lo_ok True) | AGREE True  18s
+level n=10 l=1 AMBIGUOUS at ratio [0.0100 +/- 1e-9]: equal end signs but enclosure straddles 0 at t=0.603992
+sandwich (Arb): B*-1e-35 hits_zero at t=377.0, B*+1e-35 turns_up at t=407.0  True (87s)
+TF ball enclosure to t=300 (result tmax); tail hypothesis y(70) < 144/70^6: True  (y(70) [1.2012420e-9 +/- 3.47e-17], y/psi [0.98142303 +/- 2.38e-9])  (132s)
+level n=10 l=1 k=8 G_num 7.6773746807 | upper end: 9 zeros reached at t<=22.1 sign +1 (mpmath hi_ok True) | lower end: 8 zeros (mpmath c_lo 8), sign(a_S) ok True, w>g True, sign -1 (mpmath lo_ok True) | AGREE True  62s
+level n=2 l=1 k=0 G_num 6.2410692638 | upper end: 1 zeros reached at t<=10.7 sign +1 (mpmath hi_ok True) | lower end: 0 zeros (mpmath c_lo 0), sign(a_S) ok True, w>g True, sign -1 (mpmath lo_ok True) | AGREE True  16s
+level n=3 l=2 k=0 G_num 1.5529479666 | upper end: 1 zeros reached at t<=5.9 sign +1 (mpmath hi_ok True) | lower end: 0 zeros (mpmath c_lo 0), sign(a_S) ok True, w>g True, sign -1 (mpmath lo_ok True) | AGREE True  17s
+level n=5 l=3 k=1 G_num 3.7562798670 | upper end: 2 zeros reached at t<=5.2 sign +1 (mpmath hi_ok True) | lower end: 1 zeros (mpmath c_lo 1), sign(a_S) ok True, w>g True, sign -1 (mpmath lo_ok True) | AGREE True  16s
+ARB CROSS-CHECK PASS levels 9/9 agree, sandwich+tail True, total time 377s
