@@ -21,7 +21,7 @@ This work is licensed under the Creative Commons Attribution 4.0 International L
 \par\endgroup
 ```
 
-# Introduction
+# Introduction {#p6.intro}
 
 The Madelung rule says that subshells fill in order of increasing $N=n+l$, and that subshells with equal $N$ fill in order of increasing $n$. We ask a precise question. In the Thomas-Fermi (TF) model of the neutral atom, in what order do the subshells start to fill, and where does the $n+l$ rule first fail?
 
@@ -41,7 +41,7 @@ Bjerg, Fournais, Hearnshaw and Solovej [BFHS25] prove that for the non-relativis
 
 **Roadmap.** Section 2 sets up the problem. Section 3 describes the certificate method. Section 4 states the lemmas and theorems and proves them by pointing to the certificates. The sections on the table to $N\le 30$ and the comparison with measured ground states follow Theorem B. The section on the spread and gap law derives the semiclassical spread and gap law and relates it to the density $\kappa$ of [BFHS25]. Remark I, at the end of Section 4, reports the numerical test of how specific the orderings are to the pure TF field.
 
-# Setup
+# Setup {#p6.setup}
 
 **The TF function.** Let $\varphi=\varphi_{\rm TF}$ solve
 $$\varphi''(s)=\frac{\varphi(s)^{3/2}}{\sqrt s},\qquad \varphi(0)=1,\qquad \varphi(s)\to 0\ (s\to\infty).$$
@@ -67,7 +67,7 @@ where $0.885341\ldots=\tfrac12(3\pi/4)^{2/3}$ is the TF length scale. So $Z_{\rm
 
 *Role of Lemma 1.* The certificate (Section 3, Theorems A and B, Lemma 4) uses only the definition of $G(n,l)$ and the monotonicity of $Z_l$ in $G$. Lemma 1 is used for the physical reading of a threshold as a level reaching zero energy (this section and Corollary C).
 
-# The certificate method
+# The certificate method {#p6.method}
 
 We want to prove inequalities between thresholds, not to approximate them. So we bracket each threshold between two values $G_{\rm lo}<G_{\rm hi}$ using zero counts of (2.1), and every count is a validated computation. The code is in `code/`; all arithmetic is interval arithmetic with outward rounding at 640 bits.
 
@@ -99,7 +99,7 @@ As a consistency check of the enclosure, the code verifies $\varphi_{\rm hi}(S)\
 
 **Where the computations ran.** All computations are CPU-only Python with mpmath interval arithmetic at 640 bits, one process on one thread, with no GPU. The overlap certificate for $N\le 12$ (the 42 levels with $N\le12$ and the two group 13 levels $7i$, $8h$) took 6920 s, about 115 minutes, on a machine under heavy load. The double-precision table to $N=30$ took 3529 s, plus 82 s for a patch run of the $l=0$ levels. The logs do not record library versions; the fast path of `code/run_all.py` was last run with Python 3.12.3, mpmath 1.2.1, numpy 1.26.4, scipy 1.11.4, sympy 1.12 and matplotlib 3.6.3. The code and the logs are in code/, including `code/tf_wkb.py` (about 30 s, light), which prints every number of Proposition E2.
 
-# Results
+# Results {#p6.results}
 
 **Lemma 3 (TF sandwich).** Let $B_0$ be the 40-digit value of the initial slope used in `code/`, and $B_\mp=B_0\mp10^{-35}$. The solution with slope $B_-$ is certified to reach zero and the one with slope $B_+$ to turn upward, so $B_-<B^*<B_+$. The solutions $\varphi_{\rm lo},\varphi_{\rm hi}$ with these slopes satisfy $\varphi_{\rm lo}<\varphi_{\rm TF}<\varphi_{\rm hi}$ on $(0,1.451\times10^5]$.
 
@@ -176,11 +176,11 @@ For (iii), the code asserts the strict inequalities $10p<7h$, $11s<8g$, $7h<8g$,
 
 **Remark I (numerical, model dependence).** The orderings of Theorems A and B concern the one-body operator with the pure TF field, whose zero-energy threshold is the first filling. The same orderings are obtained when the levels are filled by orbital energy at the actual $Z$ (aufbau with capacities $2(2l+1)$, no self-consistency): the filling $Z$ of $7h$, $11s$, $8g$ is $310$, $314$, $318$, the order of the thresholds. The statement is specific to this field. Rescaling the electron-electron part of the field by $(Z-1)/Z$ (Fermi-Amaldi without tail) moves every threshold by about $3/2$ in $Z$ (one or two in integer $Z$; for example $10s$ moves from 237 to 239, $7h$ from 310 to 311) and changes no order. Fields with the physical $-1/r$ tail (the Latter cutoff, the Fermi-Amaldi field with its tail, and the interpolation between the Latter field and the pure TF field) bind every level, so zero energy is no longer a threshold; filling by orbital energy then reorders levels already at small tail strength (the full Latter tail puts $4p$ (at $Z=21$) before $3d$, the first failure, at $N=5$; the Fermi-Amaldi field with its tail first fails at $N=7$, with $5d$ at $Z=57$ before $4f$ at 61; the weak tails ($0.1$ and $0.25$ of the Latter strength) fail at $N=3$) and moves $11s$ ahead of $7h$ (at $Z$ between about 230 and 290). We therefore claim no robustness of the 0.8 percent and 0.44 percent margins under such corrections, and the result must not be read as a statement about real atoms or about corrected mean fields. The test is numerical, in double precision, for neutral atoms without self-consistency, relativistic or Scott terms. Exchange (the Thomas-Fermi-Dirac field) was not tested. The code is `code/tf_robustness.py`, run by `code/run_all.py --robustness` (documented, not run by default); its log is `code/tf_robustness_aufbau.log` and the crossing test is `code/tf_robustness_cross_0.002.json`.
 
-# Use of AI {-}
+# Use of AI {#p6.ai .unnumbered}
 
 Claude (Anthropic) was used in November 2026, under the author's direction, for exploratory computation, derivations, code, checks, literature search and drafting.
 
-# References {-}
+# References {#p6.refs .unnumbered}
 
 [Abr71] A. A. Abrahamson, "Onset of atomic-subshell filling in ordinary and superheavy elements", Phys. Rev. A 4, 454-456 (1971). https://doi.org/10.1103/PhysRevA.4.454 (abstract only, full text not consulted).
 
