@@ -2,7 +2,7 @@
 
 Author: Michaël Perreault
 
-Version 1.0.1.
+Version 1.1.1.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24542256.svg)](https://doi.org/10.5281/zenodo.24542256)
 
@@ -27,4 +27,4 @@ It runs the fast checks on the data and logs shipped in `code/` and prints PASS 
 
 ## Cite as
 
-Perreault, M. Where the n + l rule breaks in the Thomas-Fermi atom: certified zero-energy thresholds, Madelung order through n + l = 10, and the first overlap at n + l = 11, version 1.0.1. https://github.com/mik-tf/madelung-first-break (DOI: [10.5281/zenodo.24542256](https://doi.org/10.5281/zenodo.24542256) (all versions; v1.0 is [10.5281/zenodo.24542257](https://doi.org/10.5281/zenodo.24542257))). See [CITATION.cff](CITATION.cff).
+Perreault, M. Where the n + l rule breaks in the Thomas-Fermi atom: certified zero-energy thresholds, Madelung order through n + l = 10, and the first overlap at n + l = 11, version 1.1.1. https://github.com/mik-tf/madelung-first-break (DOI: [10.5281/zenodo.24542256](https://doi.org/10.5281/zenodo.24542256) (all versions; v1.0 is [10.5281/zenodo.24542257](https://doi.org/10.5281/zenodo.24542257))). See [CITATION.cff](CITATION.cff).
